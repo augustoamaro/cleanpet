@@ -12,3 +12,27 @@
     color: #FFF;
     border-color: #00B22D;
 }
+
+.btn-logoff {
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.btn-logoff:hover{
+    background: rgb(238, 6, 6);
+    color: #FFF;
+    border-color: rgb(238, 6, 6);
+}
+
+.btn-login {
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.2s;
+}

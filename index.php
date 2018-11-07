@@ -46,7 +46,7 @@ startSession();
                     if(isset($_SESSION[SESSION_LOGIN])) {
                 ?>
                     <li class="scroll"><form action="logoff.php" method="POST"></li>
-                        <button type="submit" class="btn btn-danger">Logoff</button>
+                        <button type="submit" class="btn-logoff">Logoff</button>
                     </form>
                     
                 <?php } ?>
