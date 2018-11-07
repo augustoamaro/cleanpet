@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="./static/css/login.css">
 
-<body id="login-screen">
-  <div class="card login-box">
+<body>
+  <div class="loginbox">
     <div class="card-body">
       <h4 class="card-title">Login</h4>
       <form action="autentica.php" method="POST">
