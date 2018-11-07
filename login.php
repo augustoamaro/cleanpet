@@ -2,8 +2,6 @@
 
 <body>
   <div class="loginbox">
-    <div class="card-body">
-      <h4 class="card-title">Login</h4>
       <form action="autentica.php" method="POST">
         <div class="form-group">
           <label for="login">Login</label>
