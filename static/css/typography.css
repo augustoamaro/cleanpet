@@ -1,0 +1,30 @@
+body {
+    font-size: 14px;
+    color: #0e0e0f;
+}
+
+h2 {
+    color: #0e0e0f;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    color: #0e0e0f;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0e0e0f;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}

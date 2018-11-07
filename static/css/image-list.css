@@ -1,0 +1,28 @@
+.image-list{
+    list-style: none;
+    padding: 0;
+    margin: 0 -11px;
+}
+
+.image-list:before,
+.image-list:after{
+    display: table;
+    content: ' ';
+}
+
+.image-list:after{
+    clear: both;
+}
+
+.image-list li {
+    float: left;
+    width: 25%;
+    padding: 0 12px 24px 12px;
+    box-sizing: border-box;
+}
+
+.image-list img{
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
