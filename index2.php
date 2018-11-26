@@ -41,7 +41,7 @@ startSession();
                         <a href="registrar.php">Cadastre-se</a>
                     </li>
                     <li>
-                        <a class="btn-action" href="./logoff.php">Sair</a>
+                        <a class="btn-logoff" href="./logoff.php">Sair</a>
                     </li>
 
                      <?php 
