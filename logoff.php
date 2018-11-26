@@ -1,5 +1,6 @@
 <?php
-    require_once './biblioteca.php';
-    loggof();
-    redirecionarParaTelaDeLogin();
+	require 'config.php';
+	session_destroy();
+
+	header('Location: index.php');
 ?>

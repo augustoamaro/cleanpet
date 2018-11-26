@@ -35,7 +35,7 @@ startSession();
                         <a href="##">Home</a>
                     </li>
                     <li>
-                        <a href="">Cadastre-se</a>
+                        <a href="registrar.php">Cadastre-se</a>
                     </li>
                     <li>
                         <a class="btn-action" href="./login.php">Entrar</a>
