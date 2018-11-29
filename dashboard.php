@@ -23,13 +23,16 @@
         <a class="menu-link" href="#">Produtos</a>
       </li>
       <li>
+      </li>
       <?php 
                     
                     if(isset($_SESSION[SESSION_LOGIN])) {
                 ?>
-        <a class="menu-link" href="./logoff.php">Sair</a>
-        <?php } ?>
-      </li>
+                    <li class="scroll"><form action="logoff.php" method="POST"></li>
+                        <button type="submit" class="btn-logoff">Logoff</button>
+                    </form>
+                    
+                <?php } ?>
     </ul>
   </nav> 
   </main>
