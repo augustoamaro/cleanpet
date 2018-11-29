@@ -6,12 +6,17 @@ startSession();
 
 <div class="admin">
 <link rel="stylesheet" href="./static/css/dashboard.css">
+<link rel="stylesheet" href="./static/css/buttons.css">
   <header class="admin-header">
     <a href="#" class="logo">
       <h1>Pet Clean</h1>
     </a>
     <div class="toolbar">
     Bem-vindo <?php echo $_SESSION['nome']; ?>
+
+    <form action="logoff.php" method="POST"></li>
+                        <button type="submit" class="btn-logoff">Sair</button>
+                    </form>
     </div>
   </header>
   <nav class="admin-nav">
@@ -27,16 +32,7 @@ startSession();
       </li>
       <li>
         <a class="menu-link" href="#">Produtos</a>
-      </li>
-      <?php 
-                    
-                    if(isset($_SESSION[SESSION_LOGIN])) {
-                ?>
-                    <li class="scroll"><form action="logoff.php" method="POST"></li>
-                        <button type="submit" class="btn-logoff">Logoff</button>
-                    </form>
-                    
-                <?php } ?>
+      </li>                   
     </ul>
   </nav> 
   </main>
