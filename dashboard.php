@@ -28,8 +28,6 @@ startSession();
       <li>
         <a class="menu-link" href="#">Produtos</a>
       </li>
-      <li>
-      </li>
       <?php 
                     
                     if(isset($_SESSION[SESSION_LOGIN])) {
