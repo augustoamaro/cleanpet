@@ -1,3 +1,9 @@
+<?php
+
+require_once './biblioteca.php';
+startSession();
+?>
+
 <div class="admin">
 <link rel="stylesheet" href="./static/css/dashboard.css">
   <header class="admin-header">
