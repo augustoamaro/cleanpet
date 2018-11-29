@@ -22,7 +22,7 @@
         <a class="menu-link" href="#">Dashboard</a>
       </li>
       <li>
-        <a class="menu-link" href="#">Clientes</a>
+        <a class="menu-link" href="./clientes.php">Clientes</a>
       </li>
       <li>
         <a class="menu-link" href="#">Vendedores</a>

@@ -36,7 +36,7 @@
 	}
 
 	if(isset($_GET['action']) && $_GET['action'] == 'joined') {
-		$errMsg = 'Registrado com Sucesso. <a href="index2.php">Logar</a>';
+		$errMsg = 'Registrado com Sucesso. <a href="login.php">Logar</a>';
 	}
 ?>
 
