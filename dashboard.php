@@ -5,15 +5,7 @@
       <h1>Pet Clean</h1>
     </a>
     <div class="toolbar">
-      <?php 
-                    
-                    if(isset($_SESSION[SESSION_LOGIN])) {
-                ?>
-                    <li class="scroll"><form action="logoff.php" method="POST"></li>
-                        <button type="submit" class="btn-logoff">Logoff</button>
-                    </form>
-                    
-                <?php } ?>
+    Bem-vindo <?php echo $_SESSION['nome']; ?>
     </div>
   </header>
   <nav class="admin-nav">
@@ -31,6 +23,10 @@
         <a class="menu-link" href="#">Produtos</a>
       </li>
       <li>
+      <?php 
+                    
+                    if(isset($_SESSION[SESSION_LOGIN])) {
+                ?>
         <a class="menu-link" href="./logoff.php">Sair</a>
       </li>
     </ul>
