@@ -1,11 +1,10 @@
 <div class="admin">
 <link rel="stylesheet" href="./static/css/dashboard.css">
-  <header class="admin__header">
+  <header class="admin-header">
     <a href="#" class="logo">
       <h1>Pet Clean</h1>
     </a>
     <div class="toolbar">
-      <button class="btn btn--primary">Add New Plumbus</button>
       <?php 
                     
                     if(isset($_SESSION[SESSION_LOGIN])) {
@@ -17,27 +16,27 @@
                 <?php } ?>
     </div>
   </header>
-  <nav class="admin__nav">
+  <nav class="admin-nav">
     <ul class="menu">
-      <li class="menu__item">
-        <a class="menu__link" href="#">Dashboard</a>
+      <li>
+        <a class="menu-link" href="#">Dashboard</a>
       </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#">Clientes</a>
+      <li>
+        <a class="menu-link" href="#">Clientes</a>
       </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#">Vendedores</a>
+      <li>
+        <a class="menu-link" href="#">Vendedores</a>
       </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#">Produtos</a>
+      <li>
+        <a class="menu-link" href="#">Produtos</a>
       </li>
-      <li class="menu__item">
-        <a class="menu__link" href="./logoff.php">Sair</a>
+      <li>
+        <a class="menu-link" href="./logoff.php">Sair</a>
       </li>
     </ul>
   </nav> 
   </main>
-  <footer class="admin__footer">
+  <footer class="admin-footer">
     <span>
       Leônidas Augusto Amaro - Projeto Integrador 2
     </span>

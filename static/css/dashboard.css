@@ -19,7 +19,7 @@ body {
   grid-template-columns: 250px 1fr;
   grid-template-areas: "header header" "nav    main" "footer footer";
 }
-.admin__header {
+.admin-header {
   display: flex;
   flex-basis: 100%;
   grid-area: header;
@@ -28,7 +28,7 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   position: relative;
 }
-.admin__nav {
+.admin-nav {
   flex: 0 0 250px;
   grid-area: nav;
   background-color: #313541;
@@ -42,7 +42,7 @@ body {
   -webkit-overflow-scrolling: touch;
   background-color: #f4f7fa;
 }
-.admin__footer {
+.admin-footer {
   display: flex;
   grid-area: footer;
   flex-basis: 100%;
@@ -96,7 +96,7 @@ body {
 }
 
 a {
-  color: #dc5a60;
+  color: #e9890d;
   text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ img {
   position: relative;
   margin: 0;
   color: #fff;
-  background-color: #dc5a60;
+  background-color: #e9890d;
   font-size: 1rem;
 }
 .logo h1 {
@@ -136,13 +136,13 @@ img {
 .menu__item {
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 }
-.menu__link {
+.menu-link {
   display: block;
   padding: 1rem 2rem;
   color: #76808f;
   text-decoration: none;
 }
-.menu__link:hover, .menu__link:focus {
+.menu-link:hover, .menu-link:focus {
   color: #fff;
   background-color: #1f222d;
 }
