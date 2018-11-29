@@ -31,7 +31,7 @@
 						$_SESSION['senha'] = $data['senha'];
 						
 
-						header('Location: index2.php');
+						header('Location: dashboard.php');
 						exit;
 					}
 					else
@@ -46,16 +46,12 @@
 ?>
 
 <html>
-<head><title>Login</title></head>
-	<style>
-	html, body {
-		margin: 1px;
-		border: 0;
-	}
-	</style>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="./static/css/loginbox.css">
+</head>
 <body>
-	<div align="center">
-		<div style=" border: solid 1px #006D9C; " align="left">
+		<div class="login-card">
 			<?php
 				if(isset($errMsg)){
 					echo '<div style="color:#FF0000;text-align:center;font-size:17px;">'.$errMsg.'</div>';
@@ -73,3 +69,4 @@
 	</div>
 </body>
 </html>
+
