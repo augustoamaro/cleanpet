@@ -21,6 +21,7 @@ startSession();
     <link rel="stylesheet" href="./static/css/image-list.css">
     <link rel="stylesheet" href="./static/css/section.css">
     <link rel="stylesheet" href="./static/css/buttons.css">
+    <link rel="stylesheet" href="./static/css/foto-transicao.css">
 </head>
 
 <body>
@@ -89,28 +90,6 @@ startSession();
                 </ul>
             </div>
         </section>
-        <section>
-        <div class="section-content container">
-                <ul class="image-list">
-                    <li>
-                        <img class="circle" src="./static/images/pet05.jpg">
-                        <h4>Serviços</h4>
-                    </li>
-
-                    <li>
-                        <img class="circle" src="./static/images/pet05.jpg">
-                        <h4>Serviços</h4>
-                    </li>
-                    <li>
-                        <img class="circle" src="./static/images/pet05.jpg">
-                        <h4>Serviços</h4>
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-        
-
     </main>
     <footer id="site-footer">
         <div class="container">
