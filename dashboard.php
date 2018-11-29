@@ -28,6 +28,7 @@
                     if(isset($_SESSION[SESSION_LOGIN])) {
                 ?>
         <a class="menu-link" href="./logoff.php">Sair</a>
+        <?php } ?>
       </li>
     </ul>
   </nav> 

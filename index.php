@@ -90,8 +90,26 @@ startSession();
             </div>
         </section>
         <section>
+        <div class="section-content container">
+                <ul class="image-list">
+                    <li>
+                        <img class="circle" src="./static/images/pet05.jpg">
+                        <h4>Serviços</h4>
+                    </li>
 
+                    <li>
+                        <img class="circle" src="./static/images/pet05.jpg">
+                        <h4>Serviços</h4>
+                    </li>
+                    <li>
+                        <img class="circle" src="./static/images/pet05.jpg">
+                        <h4>Serviços</h4>
+                    </li>
+
+                </ul>
+            </div>
         </section>
+        
 
     </main>
     <footer id="site-footer">
